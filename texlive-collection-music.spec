@@ -1,4 +1,4 @@
-# revision 25121
+# revision 26404
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-music
 Epoch:		1
-Version:	20120224
+Version:	20120810
 Release:	1
 Summary:	Music typesetting
 Group:		Publishing
@@ -22,9 +22,11 @@ Requires:	texlive-gchords
 Requires:	texlive-gtrcrd
 Requires:	texlive-guitar
 Requires:	texlive-harmony
+Requires:	texlive-m-tx
 Requires:	texlive-musixguit
 Requires:	texlive-musixtex
 Requires:	texlive-musixtex-fonts
+Requires:	texlive-pmx
 Requires:	texlive-songbook
 Requires:	texlive-collection-latex
 
