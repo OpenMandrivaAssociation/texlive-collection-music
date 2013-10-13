@@ -1,4 +1,4 @@
-# revision 26404
+# revision 31696
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-music
 Epoch:		1
-Version:	20120810
-Release:	2
-Summary:	Music typesetting
+Version:	20131013
+Release:	1
+Summary:	Music packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,19 +16,22 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-music.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-latex
 Requires:	texlive-abc
 Requires:	texlive-figbas
 Requires:	texlive-gchords
 Requires:	texlive-gtrcrd
 Requires:	texlive-guitar
+Requires:	texlive-guitarchordschemes
 Requires:	texlive-harmony
+Requires:	texlive-lilyglyphs
 Requires:	texlive-m-tx
 Requires:	texlive-musixguit
 Requires:	texlive-musixtex
 Requires:	texlive-musixtex-fonts
 Requires:	texlive-pmx
 Requires:	texlive-songbook
-Requires:	texlive-collection-latex
+Requires:	texlive-songs
 
 %description
 Music-related fonts and packages.
@@ -43,16 +46,3 @@ Music-related fonts and packages.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813967
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780504
-- Update to latest release.
-- Import texlive-collection-music
-- Import texlive-collection-music
-
