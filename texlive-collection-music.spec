@@ -1,4 +1,4 @@
-# revision 31696
+# revision 32405
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-music
 Epoch:		1
-Version:	20131013
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Music packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -30,6 +30,7 @@ Requires:	texlive-musixguit
 Requires:	texlive-musixtex
 Requires:	texlive-musixtex-fonts
 Requires:	texlive-pmx
+Requires:	texlive-pmxchords
 Requires:	texlive-songbook
 Requires:	texlive-songs
 
