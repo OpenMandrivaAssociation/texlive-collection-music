@@ -7,7 +7,7 @@
 Name:		texlive-collection-music
 Epoch:		1
 Version:	20140215
-Release:	4
+Release:	5
 Summary:	Music packages
 Group:		Publishing
 URL:		http://tug.org/texlive
