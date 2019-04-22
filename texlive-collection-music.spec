@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-music
 Epoch:		1
-Version:	20180628
-Release:	2
+Version:	20190107
+Release:	1
 Summary:	Music packages
 Group:		Publishing
 URL:		http://tug.org/texlive
