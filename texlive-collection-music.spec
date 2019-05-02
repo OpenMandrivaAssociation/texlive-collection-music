@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-music
 Epoch:		1
-Version:	20190107
+Version:	20190228
 Release:	1
 Summary:	Music packages
 Group:		Publishing
