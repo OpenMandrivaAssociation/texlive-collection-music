@@ -1,6 +1,6 @@
 Name:		texlive-collection-music
 Epoch:		1
-Version:	65862
+Version:	69613
 Release:	1
 Summary:	Music packages
 Group:		Publishing
